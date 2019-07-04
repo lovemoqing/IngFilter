@@ -8,7 +8,7 @@
         setInterval(_this.ChearUsers, 2000);
     }
     this.ChearUsers = function () {
-        var filterNames = new Array("Iamcoming", "沃泽法克", "流年煮雪");
+        var filterNames = new Array("测试人员01", "测试人员02", "测试人员03");
         $(".entry_a,.entry_b").each(function (i, e) {
             var currDomInfo = $(e).find(".ing-author").attr("title");
             $.each(filterNames, function (ii, ee) {
