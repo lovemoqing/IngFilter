@@ -5,9 +5,9 @@
         //加载页面时清除一次
         _this.ChearUsers();
         //此后每两秒定时清除一次
-        //setInterval(_this.ChearUsers, 2000);
+        setInterval(_this.ChearUsers, 2000);
         //刷星
-        setTimeout(_this.Refresh, 1000*60*5);
+        //setTimeout(_this.Refresh, 1000*60*5);
     }
     this.ChearUsers = function () {
         var filterNames = new Array("测试人员01", "测试人员02", "测试人员03");
